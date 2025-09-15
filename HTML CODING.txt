@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Designer Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>RAJKUMAR M</h1>
+    <p>Graphic & UI Designer</p>
+  </header>
+  <nav>
+    <a href="#about">DESGINER</a>
+    <a href="#work">GRAPHIC DESGINER FOR EXAMINERS</a>
+    <a href="#contact">mayilrajkumar007@gmail.com</a>
+  </nav>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate designer with expertise in web and graphic design.</p>
+  </section>
+  <section id="work">
+    <h2>My Work</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>IOT 1</h3>
+        <p>Short description of the project.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="project2.jpg" alt="Project 2">
+        <h3>IOT IN DATA SCIENCE 2</h3>
+        <p>Short description of the project.</p>
+      </div>
+      <!-- Add more projects as needed -->
+    </div>
+  </section>
+  <section id="mayilrajkumar007@gmail.com">
+    <h2>mayilrajkumar007@gmail.com</h2>
+    <form>
+      <input type="text" placeholder="RAJKUMAR M" required>
+      <input type="email" placeholder="mayilrajkumar007@gmail.com"required>
+      <textarea placeholder="DESGINERS FOR PROJECT"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 RAJKUMAR M</p>
+  </footer>
+</body>
+</html>
